@@ -308,8 +308,6 @@ Wire Wire Line
 	2700 2700 2650 2700
 Text Label 2700 5500 0    50   ~ 0
 Reset
-Wire Wire Line
-	2700 5500 2650 5500
 Text Label 2700 2200 0    50   ~ 0
 MOSI
 Text Label 2700 2300 0    50   ~ 0
@@ -425,8 +423,6 @@ F 3 "" H 2950 6100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3050 6100 2950 6100
-NoConn ~ 3050 5600
-NoConn ~ 3050 6000
 Text Label 2700 4300 0    50   ~ 0
 MOSI
 Text Label 2700 4400 0    50   ~ 0
@@ -493,4 +489,11 @@ Wire Wire Line
 Wire Wire Line
 	2150 3700 2050 3700
 Connection ~ 2050 3700
+Wire Wire Line
+	3050 5600 3050 5500
+Wire Wire Line
+	2650 5500 3050 5500
+Wire Wire Line
+	3050 6000 3050 6100
+Connection ~ 3050 6100
 $EndSCHEMATC
