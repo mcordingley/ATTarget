@@ -306,7 +306,7 @@ Text Label 2700 2700 0    50   ~ 0
 Reset
 Wire Wire Line
 	2700 2700 2650 2700
-Text Label 2700 5500 0    50   ~ 0
+Text Label 2750 5200 0    50   ~ 0
 Reset
 Text Label 2700 2200 0    50   ~ 0
 MOSI
@@ -490,10 +490,24 @@ Wire Wire Line
 	2150 3700 2050 3700
 Connection ~ 2050 3700
 Wire Wire Line
-	3050 5600 3050 5500
-Wire Wire Line
-	2650 5500 3050 5500
-Wire Wire Line
 	3050 6000 3050 6100
 Connection ~ 3050 6100
+$Comp
+L Device:C C4
+U 1 1 5EE69D5D
+P 2900 5500
+F 0 "C4" V 2648 5500 50  0000 C CNN
+F 1 "100nF" V 2739 5500 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 2938 5350 50  0001 C CNN
+F 3 "~" H 2900 5500 50  0001 C CNN
+	1    2900 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 5600 3050 5500
+Wire Wire Line
+	2750 5200 2750 5500
+Wire Wire Line
+	2750 5500 2650 5500
+Connection ~ 2750 5500
 $EndSCHEMATC
